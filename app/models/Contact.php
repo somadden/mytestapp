@@ -1,6 +1,6 @@
 <?php
 
-class Contact extends Eloquent {
-	public $table = 'contacts';
-	public $timestamps = false;
+class Contact extends Eloquent
+{
+	protected $table = 'Contacts';
 }
