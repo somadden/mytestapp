@@ -34,7 +34,7 @@ class ContactsController extends Controller {
 			'first_name' => $input->first_name,
 			'last_name'=> $input->last_name,
 			'email_address' => $input->email_address,
-			'desciprtion' => $input->desciprtion
+			'description' => $input->description
 		));
 	}
 

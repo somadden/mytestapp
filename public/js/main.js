@@ -1,5 +1,5 @@
 (function() {
-	window.app = {
+	window.App = {
 		Models:{},
 		Collections:{},
 		Views:{},
@@ -8,5 +8,7 @@
 	
 	window.vent = _.extend({}, Backbone.Events);
 	
-	
+	window.template = function(id) {
+		return _.template( $('#' + id).html() );
+	}
 })();
